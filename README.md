@@ -34,20 +34,13 @@ sistema embebido en python para traduccion en tiempo real, traduccion de imagen 
 Para usar este proyecto se tienen las siguientes Dependecias
 
 ```bash
-  pip install libretranslate
+  pip install -r requirements.txt
 ```
 
-```bash
-  pip install opencv-python
-
-```
-```bash
-  pip install pytesseract
-```
 
 ## Documentation
 
-Ejecutar el main 
+Ejecutar main 
 
 ```bash
   python main.py
