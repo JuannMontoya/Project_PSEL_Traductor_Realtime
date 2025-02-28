@@ -5,7 +5,28 @@
 sistema embebido en python para traduccion en tiempo real, traduccion de imagen y traduccion de voz, este proyecto usa la api offline gratuita de [Libretranslate](https://github.com/LibreTranslate/LibreTranslate) ya que es la unica que ofrece paquetes de traduccion sin pagos o sin dejar informacion de pago.
 
 
+# Estructura del Proyecto
 
+/proyecto
+│
+├── main.py # Punto de entrada principal
+├── ApiManager.py # Manejo de API de traducción
+├── Realtime.py # Procesamiento en tiempo real
+├── OCR.py # Módulo de OCR
+├── VoiceRecognizer.py # Módulo de reconocimiento de voz
+├── requirements.txt # Dependencias del proyecto
+└── README.md # Documentación del proyecto
+
+
+### Descripción de Archivos y Carpetas
+
+- **`main.py`**: Punto de entrada principal del programa.
+- **`ApiManager.py`**: Maneja las solicitudes a la API de traducción.
+- **`Realtime.py`**: Contiene la lógica para el procesamiento en tiempo real.
+- **`OCR.py`**: Implementa la funcionalidad de OCR (reconocimiento óptico de caracteres).
+- **`VoiceRecognizer.py`**: Maneja el reconocimiento de voz.
+- **`requirements.txt`**: Lista de dependencias necesarias para ejecutar el proyecto.
+- **`README.md`**: Documentación del proyecto (este archivo).
 
 ## Dependecias
 

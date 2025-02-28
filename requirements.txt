@@ -1,0 +1,7 @@
+pytesseract
+opencv-python
+picamera2
+langdetect
+speechrecognition
+numpy
+pycallgraph2
