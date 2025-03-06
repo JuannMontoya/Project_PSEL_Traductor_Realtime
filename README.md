@@ -7,6 +7,7 @@ sistema embebido en python para traduccion en tiempo real, traduccion de imagen 
 
 # Estructura del Proyecto
 
+```
 /proyecto
 │
 ├── main.py # Punto de entrada principal
@@ -16,7 +17,7 @@ sistema embebido en python para traduccion en tiempo real, traduccion de imagen 
 ├── VoiceRecognizer.py # Módulo de reconocimiento de voz
 ├── requirements.txt # Dependencias del proyecto
 └── README.md # Documentación del proyecto
-
+```
 
 ### Descripción de Archivos y Carpetas
 
@@ -33,20 +34,13 @@ sistema embebido en python para traduccion en tiempo real, traduccion de imagen 
 Para usar este proyecto se tienen las siguientes Dependecias
 
 ```bash
-  pip install libretranslate
+  pip install -r requirements.txt
 ```
 
-```bash
-  pip install opencv-python
-
-```
-```bash
-  pip install pytesseract
-```
 
 ## Documentation
 
-Ejecutar el main 
+Ejecutar main 
 
 ```bash
   python main.py
